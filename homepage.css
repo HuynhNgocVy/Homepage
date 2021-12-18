@@ -361,4 +361,24 @@ footer {
       margin-left: 100px;
       margin: auto;
   }
- 
+  @media (max-width: 1500px) {
+    .main-img img {
+       width: 650px;
+    }
+ }
+ @media (max-width: 1200px) {
+    .main-img img {
+       width: 600px;
+    }
+    .main {
+        padding: 0;
+    }
+ }
+ @media (max-width: 1000px) {
+    .main-img img {
+       width: 500px;
+    }
+    .main {
+        padding: 0;
+    }
+ }
